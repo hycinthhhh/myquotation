@@ -10,7 +10,7 @@ let hycinthInfo = {
   meaning: "This quote tells us that how much we believe in ourselves directly affects what we can achieve in life. When we feel confident and trust our abilities, we naturally perform better and reach higher goals. On the other hand, when we doubt ourselves, we hold back and limit our own potential.\n\nConfidence gives us the courage to try new things, face challenges, and keep going even when things get tough. It's like having a special power inside us that grows stronger the more we believe in it.\n\nBy building our confidence day by day, we unlock more of our true capacity and become capable of amazing things."
 };
 
-// for design 
+// for design (header, container, arrow panel, footer, quote, meaning)
 app.get('/', (req, res) => {
   res.send(`
     <!DOCTYPE html>
@@ -129,12 +129,9 @@ app.get('/', (req, res) => {
           text-align: center;
           margin-top: 20px;
           color: #7cb342;
-          font-size: 14px;
+          font-size: 10px;
         }
         
-        .footer .heart {
-          color: #66bb6a;
-        }
       </style>
     </head>
     <body>
@@ -160,7 +157,7 @@ app.get('/', (req, res) => {
         </div>
         
         <div class="footer">
-          <p>© 2025 Hycinth's Cave <span class="heart">💚</span> | GitHub Codespaces & Render Deployment</p>
+          <p>© 2025 Hycinth's Cave | GitHub Codespaces & Render Deployment</p>
         </div>
       </div>
       
